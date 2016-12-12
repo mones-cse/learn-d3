@@ -1,4 +1,43 @@
-html, body {
+html{
   margin: 0;
   height: 100%;
+  /*background-image: url("http://www.walldevil.com/wallpapers/a42/blurry-gaussian-pictures-background-wallpaper-images.jpg");*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+.tooltip{
+	min-height: auto;
+	min-width: 100px;
+	border-radius: 4px;
+	background-color: white;
+}
+
+
+
+
+.mainGroup{
+	margin:auto;
+}
+
+.tooltip{
+	min-height: auto;
+	min-width: 100px;
+	border-radius: 1px;
+  padding:4px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+.card{
+ margin:auto;
+ margin-top:50px;
+ width:700px;
+ height:550px;
+ background-color:rgba(0,0,0,0.3);
+}
+
+.tick text{
+  fill:#fff; 
 }

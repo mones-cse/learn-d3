@@ -7,9 +7,8 @@ svg.selectAll('rect')
 	.data(dataArray)
 	.enter().append('rect')	
 	.attr('fill','pink')
-	.attr('height',(d,i)=>{return d*4})
+	.attr('height',d=>{return d*4})
 	.attr('width',(d,i)=>{return 20})
 	.attr('x',(d,i)=>{return 10+i*30})
 	.attr('y',(d,i)=>{return 150-d*4});
-
 
